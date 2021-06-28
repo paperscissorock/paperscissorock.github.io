@@ -9,7 +9,7 @@ storyjs_jsonp_data = {
                 "text":"<p>I earned my B.S. in Communication Design with a specialization in Multimedia at Texas State University in San Marcos, Texas. I was consistently on the Dean's list and held a spot in the National Scholars Honors Society, while working a full-time photo preprocessing job.</p>",
                 "asset":
                 {
-                    "media":"images/_used/txstate01.png",
+                    "media":"images/txstate01.png",
                     "credit":"",
                     "caption":""
                 }
@@ -21,7 +21,7 @@ storyjs_jsonp_data = {
                 "text":"<p>I was a Phoenix at one of the top 10 schools in the nation, at the time. It was a magnet medical foundations school where electives such as Diagnostics, Dental and Physics were offered. Acceptance was limited to 200 students out of a couple thousand applicants per year. I represented my school at state competitions with 3 others as part of Health Occupation Students of America. </p>",
                 "asset":
                 {
-                    "media":"images/_used/hchs02.png",
+                    "media":"images/hchs02.png",
                     "credit":"",
                     "caption":""
                 }
@@ -33,7 +33,7 @@ storyjs_jsonp_data = {
                 "text":"Co-founded and ran a magazine with a focus on local Austin music and touring national bands with one other individual. I was responsible for a lot of the layout, design, photography, content, interviews, and eventually marketing, advertising finances and event planning.",
                 "asset":
                 {
-                    "media":"images/_used/ss_cover_web.png",
+                    "media":"images/ss_cover_web.png",
                     "credit":"",
                     "caption":"April 2005 issue"
                 }
@@ -45,7 +45,7 @@ storyjs_jsonp_data = {
                 "text":"I saw Austin as a place of greater ambition and higher education and had been making the trip regularly to see music and play competitive soccer so I moved up right after I graduated high school.",
                 "asset":
                 {
-                    "media":"images/_used/atx02.png",
+                    "media":"images/atx02.png",
                     "credit":"",
                     "caption":""
                 }
@@ -57,7 +57,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Since my education was mostly on my own dime, I got my core curriculum out of the way while being a River Bat at ACC.</p>",
                 "asset":
                 {
-                    "media":"images/_used/acc.png",
+                    "media":"images/acc.png",
                     "credit":"",
                     "caption":""
                 }
@@ -69,7 +69,7 @@ storyjs_jsonp_data = {
                 "text":"I worked for various image processing entities throughout my college years. The main one looked very similar to this and we handled large format prints for a gamut of clients from NASA and National Geographic to Wal-Mart. I also did the 1 hour thing for a while and worked with a few different professional photographers doing and digital preprocessing.",
                 "asset":
                 {
-                    "media":"images/_used/phototlc.png",
+                    "media":"images/phototlc.png",
                     "credit":"",
                     "caption":""
                 }
@@ -82,7 +82,7 @@ storyjs_jsonp_data = {
                 "text":"<p>I received college credit through an internship with City on Fire, a small design firm in Austin, Tx. While there I developed a a flash based website for The Austin Independent, a print publication of theirs. I also created an HTML based website for Lomita, one of the local bands that they worked with.</p>",
                 "asset":
                 {
-                    "media":"images/_used/cityonfire.png",
+                    "media":"images/cityonfire.png",
                     "credit":"",
                     "caption":"http://www.cityonfire.us/portfolio-magazines.html"
                 }
@@ -94,7 +94,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Play31 uses the unifying power of soccer by bringing together people who have been torn apart by war by putting together and sponsoring football tournaments and celebratory gatherings. I met Jakob when he was first starting his organization and volunteered to be the sole webmaster of their wordpress site until they grew into a full fledged organization with employees. https://www.facebook.com/play31/</p>",
                 "asset":
                 {
-                    "media":"images/_used/play31.png",
+                    "media":"images/play31.png",
                     "credit":"",
                     "caption":"after a tournament in Sierra Leone"
                 }
@@ -105,7 +105,7 @@ storyjs_jsonp_data = {
                 "text":"<p>A print series I worked on for the ACPCA in my Art Direction class was published in the Graphis 2006 New Talent annual after winning recognition at Creative Summit 2006. </p>",
                 "asset":
                 {
-                    "media":"images/_used/newtalent2007.png",
+                    "media":"images/newtalent2007.png",
                     "credit":"",
                     "caption":"http://www.graphis.com/competition/new-talent-annual-07-08/archived/"
                 }
@@ -116,7 +116,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Received the Medal of Excellence, the top Coveted Memorial Ralph Award and a cash prize at Creative Summit 2006.</p>",
                 "asset":
                 {
-                    "media":"images/_used/ralphaward01.png",
+                    "media":"images/ralphaward01.png",
                     "credit":"",
                     "caption":"http://www.creativesummit.com/awards.html"
                 }
@@ -127,7 +127,7 @@ storyjs_jsonp_data = {
                 "text":"<p>A multimedia stop motion advertising commercial spot I worked on for Mr. Clean Magic Erasers in my Art Direction class was published as stills in a Graphis 2007 Journal after winning recognition at Creative Summit 2007.</p>",
                 "asset":
                 {
-                    "media":"images/_used/journal.png",
+                    "media":"images/journal.png",
                     "credit":"",
                     "caption":""
                 }
@@ -138,7 +138,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Received the Medal of Excellence, the top Coveted Memorial Ralph Award and a cash prize at Creative Summit 2007.</p>",
                 "asset":
                 {
-                    "media":"images/_used/ralphaward.png",
+                    "media":"images/ralphaward.png",
                     "credit":"",
                     "caption":"http://www.creativesummit.com/awards.html"
                 }
@@ -149,7 +149,7 @@ storyjs_jsonp_data = {
                 "text":"<p>I received the Best of Advertising award at the AIGA Expose Yourself 5 competition for a an awareness series I worked on for the ASPCA.</p>",
                 "asset":
                 {
-                    "media":"images/_used/aspcatimeline.png",
+                    "media":"images/aspcatimeline.png",
                     "credit":"",
                     "caption":""
                 }
@@ -161,7 +161,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Right after I graduated college the photo facility I worked for went bankrupt and I took it as an opportunity to travel a bit. I caught the end of the snowboarding season with a friend in Colorado, then went to Brooklyn for a couple months to cat-sit Mischa & Satchmo Einstein for A. Einstein's granddaughter while she was in Alaska competing in the 2007 Iditarot. NO kidding, can't make this stuff up. Then managed to visit a friend in D.C. and see all the museums. Great times! </p>",
                 "asset":
                 {
-                    "media":"images/_used/brooklynbridge.png",
+                    "media":"images/brooklynbridge.png",
                     "credit":"",
                     "caption":""
                 }
@@ -173,7 +173,7 @@ storyjs_jsonp_data = {
                 "text":"<p>I started working for Dr. Teresa Coats at Benchmark Research, was asked to join her private practice. Then, University of Texas asked her to be the director at a new residency clinic to be part of the new proposed Medical school under UTMB. After hurricane Ike devastated UTMB in 2008 we transitioned to Seton Hospitals where I excelled into an administrative role advocating for our team of physicians and patients. I worked under Dr. Coats up until that point.</p>",
                 "asset":
                 {
-                    "media":"images/_used/utphys.png",
+                    "media":"images/utphys.png",
                     "credit":"",
                     "caption":" https://dellmed.utexas.edu/directory/teresa-coats"
                 }
@@ -185,7 +185,7 @@ storyjs_jsonp_data = {
                 "text":"<p>I became 100% vested with Seton on my birthday in 2014, graciously resigned, sold everything but my guitars and snowboard and moved to Kraków. I'd been before and loved it. I obtained a 2 year residency, 2 part-time jobs within 2 weeks and began polishing my Polish.</p>",
                 "asset":
                 {
-                    "media":"images/_used/krk01.png",
+                    "media":"images/krk01.png",
                     "credit":"",
                     "caption":""
                 }
@@ -197,7 +197,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Rode tiny horses and climbed glaciers while exploring and photographing Iceland.</p>",
                 "asset":
                 {
-                    "media":"images/_used/iceland.png",
+                    "media":"images/iceland.png",
                     "credit":"",
                     "caption":""
                 }
@@ -209,7 +209,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Wildebydesign was a small English speaking design firm in Kraków that offered various clients: print, web, identity, photography and video services.</p>",
                 "asset":
                 {
-                    "media":"images/_used/wbd.png",
+                    "media":"images/wbd.png",
                     "credit":"",
                     "caption":""
                 }
@@ -220,7 +220,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Before leaving the states I established my own business and eventually the owner at wildebydesign decided to focus on other endeavors. I took some of our client base with me and began my life as a freelancer. During this time I've mainly done design work but have also: taught English, worked at a bike shop, and even some contracted home remodeling.</p>",
                 "asset":
                 {
-                    "media":"images/_used/freelance.png",
+                    "media":"images/freelance.png",
                     "credit":"",
                     "caption":""
                 }
@@ -231,7 +231,7 @@ storyjs_jsonp_data = {
                 "text":"<p>I was contracted to do layout and design for <em>KICstart Your Business</em> for K.I.C. (Knowledge & Innovation Community) InnoEnergy under the European Institute of Innovation & Technology. It's a 200 page guidebook for entrepreneurs interested in starting businesses. I worked on this with one other person, the author and editor, while traveling across SE Asia.</p>",
                 "asset":
                 {
-                    "media":"images/_used/kic-cover.png",
+                    "media":"images/kic-cover.png",
                     "credit":"",
                     "caption":"https://eit.europa.eu/our-communities/eit-innoenergy"
                 }
@@ -242,7 +242,7 @@ storyjs_jsonp_data = {
                 "text":"<p>I reworked the layout & design for the second edition of the <em>KICstart Your Business</em> workbook, now rebranded as the <em>PowerGuide</em> for InnoEnergy and distributed all across Europe.</p>",
                 "asset":
                 {
-                    "media":"images/_used/kic-cover2.png",
+                    "media":"images/kic-cover2.png",
                     "credit":"",
                     "caption":"https://eit.europa.eu/our-communities/eit-innoenergy"
                 }
@@ -253,7 +253,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Moved to Portland, Oregon, to continue freelancing and working with one of my main clients at the time.</p>",
                 "asset":
                 {
-                    "media":"images/_used/Portland_Oregon_lg.jpg",
+                    "media":"images/Portland_Oregon_lg.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -264,7 +264,7 @@ storyjs_jsonp_data = {
               "text":"<p>I received the Special Judges' Selection Award for a mixed-media poster I made for the Austin Film Festival and a Bronze medal for a project I worked on in my Art Direction class.</p>",
               "asset":
             {
-                   "media":"images/_used/austinfilm.png",
+                   "media":"images/austinfilm.png",
                    "credit":"",
                    "caption":""
         }
@@ -276,7 +276,7 @@ storyjs_jsonp_data = {
               "text":"<p>I really enjoy working with my hands, learning how things function and was hoping to one day invest in a home or two, so I joined some friends to learn about about building and finish remodeling. It's a very valuable yet under appreciated skill. </p>",
               "asset":
             {
-                  "media":"images/_used/chapeltimeline.png",
+                  "media":"images/chapeltimeline.png",
                   "credit":"",
                   "caption":"https://www.steinerremodel.com/"
          }
@@ -288,7 +288,7 @@ storyjs_jsonp_data = {
             "text":"<p>I developed a curriculum and gave private lessons to a few college students, business professionals, and college professors that were learning the advanced stages of English.</p>",
             "asset":
           {
-                 "media":"images/_used/teachtimeline.png",
+                 "media":"images/teachtimeline.png",
                  "credit":"",
                  "caption":""
 }
@@ -300,7 +300,7 @@ storyjs_jsonp_data = {
                 "text":"<p>Traveled to Bangkok, Thailand and got an apartment for a month to serve as headquarters while traveling around the country to see the cities, jungles, and oceans. I spent a couple months traveling across Cambodia and Vietnam after that.</p>",
                 "asset":
                 {
-                    "media":"images/_used/bangkok.png",
+                    "media":"images/bangkok.png",
                     "credit":"",
                     "caption":""
                 }
