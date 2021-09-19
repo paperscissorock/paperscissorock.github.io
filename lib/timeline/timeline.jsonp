@@ -206,7 +206,7 @@ storyjs_jsonp_data = {
                 "startDate":"2014,5",
                 "endDate":"2015,6",
                 "headline":"Joined wildebydesign",
-                "text":"<p>Wildebydesign was a small English speaking design firm in Kraków that offered various clients: print, web, identity, photography and video services.</p>",
+                "text":"<p>Wildebydesign is a small English speaking design firm in Kraków, Poland that offers various clients: print, web, identity, photography and video services.</p>",
                 "asset":
                 {
                     "media":"images/_used/wbd.png",
@@ -217,7 +217,7 @@ storyjs_jsonp_data = {
       {
                 "startDate":"2015,7",
                 "headline":"Launched <em>paperscissorock creative</em>",
-                "text":"<p>Before leaving the states I established my own business and eventually the owner at wildebydesign decided to focus on other endeavors. I took some of our client base with me and began my life as a freelancer. During this time I've mainly done design work but have also: taught English, worked at a bike shop, and even some contracted home remodeling.</p>",
+                "text":"<p>Before leaving the states I established my own business and when the owner at wildebydesign decided to focus on other endeavors. I took some of our client base with me and began my life as a freelancer. During this time I focused on design work but also taught English, and worked at a bike shop part-time.</p>",
                 "asset":
                 {
                     "media":"images/_used/freelance.png",
@@ -271,7 +271,7 @@ storyjs_jsonp_data = {
     },
 {
               "startDate":"2018,1",
-              "endDate":"2019,7",
+              "endDate":"2020,3",
               "headline":"Started work with Steiner Custom Build & Remodel ",
               "text":"<p>I really enjoy working with my hands, learning how things function and was hoping to one day invest in a home or two, so I joined some friends to learn about about building and finish remodeling. It's a very valuable yet under appreciated skill. </p>",
               "asset":
