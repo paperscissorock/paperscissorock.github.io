@@ -356,9 +356,14 @@ strong, b {
 
 .mt5 {
   margin-top: 5px !important; }
-  /*-------------------------------*/
 
-   /*-------kadded---------------*/
+/*-------------------------------*/
+
+/*-------kadded---------------*/
+
+.home-arrow {
+  font-size: 30px;
+}
 
 .img-padding {
   padding: 3vw;
