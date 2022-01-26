@@ -7,8 +7,7 @@
   <script>
     window.dataLayer = window.dataLayer || [];
 
-    function gtag()
-    {
+    function gtag() {
       dataLayer.push(arguments);
     }
     gtag('js', new Date());
@@ -54,7 +53,9 @@
     <!--/search form-->
     <div class="container">
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="/">
@@ -123,11 +124,15 @@
       <div class="col-md-6 mb30">
         <h4>Recipe</h4>
         <p>
-          Max Solutions is a geophysics and geoconsulting company that has partners and offices in both the US and in Poland. They have a very specific demographic that they are trying to reach and hired me to create a website for their professional
-          services. I've recently finished redesigning the website and am currently working on developing their identity.
+          Max Solutions is a geophysics and geoconsulting company that has partners and offices in both the US and in
+          Poland. They have a very specific demographic that they are trying to reach and hired me to create a website
+          for their professional
+          services. I've recently finished redesigning the website and am currently working on developing their
+          identity.
         </p>
         <p>
-          It's always great to catch up with the people behind this company over lunch or a quick Skype call. I enjoy working with them because I get to learn about a field that's completely new and interesting to me.
+          It's always great to catch up with the people behind this company over lunch or a quick Skype call. I enjoy
+          working with them because I get to learn about a field that's completely new and interesting to me.
         </p>
       </div>
       <div class="col-md-3 mb30">
@@ -154,7 +159,8 @@
     <a href="#mslaptop" class="btn  btn-arrow"> </br><i class=" fas fa-chevron-down fa-3x"></i></a>
   </div>
   <a class="anchor" id="mslaptop"></a>
-  <div class="wow slideInRight animated mb20" data-wow-duration="1.5s" data-wow-delay=".4" bis_skin_checked="1" style="visibility: visible; animation-duration: 1.5s; animation-delay: .4s; animation-name: slideInRight;">
+  <div class="wow slideInRight animated mb20" data-wow-duration="1.5s" data-wow-delay=".4" bis_skin_checked="1"
+    style="visibility: visible; animation-duration: 1.5s; animation-delay: .4s; animation-name: slideInRight;">
     <img src="images/maxsolutionslide.png" alt="laptop mockup" class="img-fluid pl10 pr10 img-padding">
   </div>
   <!--/footer-->
@@ -163,18 +169,22 @@
       <div class="row">
         <div class="col-lg-7">
           <div class="clearfix">
-            <a href="https://www.instagram.com/paperscissorock/" class="social-icon-sm si-dark si-facebook si-dark-round" target="_blank">
+            <a href="https://www.instagram.com/paperscissorock/"
+              class="social-icon-sm si-dark si-facebook si-dark-round" target="_blank">
               <i class="fab fa-instagram"></i>
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://www.linkedin.com/in/kevinhudsonpdx" class="social-icon-sm si-dark si-linkedin si-dark-round" target="_blank">
+            <a href="https://www.linkedin.com/in/kevinhudsonpdx"
+              class="social-icon-sm si-dark si-linkedin si-dark-round" target="_blank">
               <i class="fab fa-linkedin"></i>
               <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>
         <div class="col-lg-5">
-          <span>&copy; Copyright 2019. All Right Reserved | paperscissorock</span>
+          <span>&copy; Copyright
+            <script>document.write(new Date().getFullYear())</script>. All Right Reserved | paperscissorock
+          </span>
         </div>
       </div>
     </div>
@@ -208,93 +218,90 @@
   <script type="text/javascript">
     var tpj = jQuery;
     var revapi1083;
-    tpj(document).ready(function()
-    {
-      if (tpj("#rev_slider_1083_1").revolution == undefined)
-      {
+    tpj(document).ready(function () {
+      if (tpj("#rev_slider_1083_1").revolution == undefined) {
         revslider_showDoubleJqueryError("#rev_slider_1083_1");
       }
-      else
-      {
+      else {
         revapi1083 = tpj("#rev_slider_1083_1").show().revolution(
-        {
-          sliderType: "standard",
-          jsFileLocation: "../revolution/assets/js/",
-          sliderLayout: "auto",
-          dottedOverlay: "none",
-          delay: 6000,
-          navigation:
           {
-            keyboardNavigation: "off",
-            keyboard_direction: "horizontal",
-            mouseScrollNavigation: "off",
-            mouseScrollReverse: "default",
-            onHoverStop: "off",
-            touch:
+            sliderType: "standard",
+            jsFileLocation: "../revolution/assets/js/",
+            sliderLayout: "auto",
+            dottedOverlay: "none",
+            delay: 6000,
+            navigation:
             {
-              touchenabled: "on",
-              swipe_threshold: 75,
-              swipe_min_touches: 1,
-              swipe_direction: "horizontal",
-              drag_block_vertical: false
+              keyboardNavigation: "off",
+              keyboard_direction: "horizontal",
+              mouseScrollNavigation: "off",
+              mouseScrollReverse: "default",
+              onHoverStop: "off",
+              touch:
+              {
+                touchenabled: "on",
+                swipe_threshold: 75,
+                swipe_min_touches: 1,
+                swipe_direction: "horizontal",
+                drag_block_vertical: false
+              },
+              bullets:
+              {
+                enable: true,
+                hide_onmobile: true,
+                hide_under: 600,
+                style: "hermes",
+                hide_onleave: true,
+                hide_delay: 200,
+                hide_delay_mobile: 1200,
+                direction: "vertical",
+                h_align: "right",
+                v_align: "center",
+                h_offset: 30,
+                v_offset: 0,
+                space: 5,
+                tmp: ''
+              }
             },
-            bullets:
+            viewPort:
             {
               enable: true,
-              hide_onmobile: true,
-              hide_under: 600,
-              style: "hermes",
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              direction: "vertical",
-              h_align: "right",
-              v_align: "center",
-              h_offset: 30,
-              v_offset: 0,
-              space: 5,
-              tmp: ''
+              outof: "pause",
+              visible_area: "80%",
+              presize: false
+            },
+            responsiveLevels: [1240, 1024, 778, 480],
+            visibilityLevels: [1240, 1024, 778, 480],
+            gridwidth: [1240, 1024, 778, 480],
+            gridheight: [700, 600, 500, 400],
+            lazyType: "none",
+            parallax:
+            {
+              type: "mouse",
+              origo: "slidercenter",
+              speed: 2000,
+              levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
+              type: "mouse"
+            },
+            shadow: 0,
+            spinner: "off",
+            stopLoop: "off",
+            stopAfterLoops: -1,
+            stopAtSlide: -1,
+            shuffle: "off",
+            autoHeight: "off",
+            hideThumbsOnMobile: "off",
+            hideSliderAtLimit: 0,
+            hideCaptionAtLimit: 0,
+            hideAllCaptionAtLilmit: 0,
+            debugMode: false,
+            fallbacks:
+            {
+              simplifyAll: "off",
+              nextSlideOnWindowFocus: "off",
+              disableFocusListener: false
             }
-          },
-          viewPort:
-          {
-            enable: true,
-            outof: "pause",
-            visible_area: "80%",
-            presize: false
-          },
-          responsiveLevels: [1240, 1024, 778, 480],
-          visibilityLevels: [1240, 1024, 778, 480],
-          gridwidth: [1240, 1024, 778, 480],
-          gridheight: [700, 600, 500, 400],
-          lazyType: "none",
-          parallax:
-          {
-            type: "mouse",
-            origo: "slidercenter",
-            speed: 2000,
-            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
-            type: "mouse"
-          },
-          shadow: 0,
-          spinner: "off",
-          stopLoop: "off",
-          stopAfterLoops: -1,
-          stopAtSlide: -1,
-          shuffle: "off",
-          autoHeight: "off",
-          hideThumbsOnMobile: "off",
-          hideSliderAtLimit: 0,
-          hideCaptionAtLimit: 0,
-          hideAllCaptionAtLilmit: 0,
-          debugMode: false,
-          fallbacks:
-          {
-            simplifyAll: "off",
-            nextSlideOnWindowFocus: "off",
-            disableFocusListener: false
-          }
-        });
+          });
       }
     }); /*ready*/
   </script>

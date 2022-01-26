@@ -7,8 +7,7 @@
   <script>
     window.dataLayer = window.dataLayer || [];
 
-    function gtag()
-    {
+    function gtag() {
       dataLayer.push(arguments);
     }
     gtag('js', new Date());
@@ -54,7 +53,9 @@
     <!--/search form-->
     <div class="container">
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="/">
@@ -100,16 +101,20 @@
         </div>
         <div class="mb30">
           <h5 class="mb5">Visit Site</h5>
-          <a href="https://www.amazon.com/s?i=stripbooks&rh=p_27%3ASlobodan+Petrovic&s=relevancerank&text=Slobodan+Petrovic&ref=dp_byline_sr_book_1" target="_blank">Buy a Copy</a>
+          <a href="https://www.amazon.com/s?i=stripbooks&rh=p_27%3ASlobodan+Petrovic&s=relevancerank&text=Slobodan+Petrovic&ref=dp_byline_sr_book_1"
+            target="_blank">Buy a Copy</a>
         </div>
       </div>
       <div class="col-md-6 mb30">
         <h4>Recipe</h4>
         <p>
-          I worked with several electrochemistry professors for the better part of 2020-2021 on a series of technical book covers to illustrate their textbooks.
+          I worked with several electrochemistry professors for the better part of 2020-2021 on a series of technical
+          book covers to illustrate their textbooks.
         </p>
         <p>
-          This project was my first foray into static 3D design. I grew my technical skills greatly over the course of this project, using Arnold renderer and implementing ACES in Cinema 4D, as well as learning how to accurately portray technical subjects such as batteries and photovoltaic systems.
+          This project was my first foray into static 3D design. I grew my technical skills greatly over the course of
+          this project, using Arnold renderer and implementing ACES in Cinema 4D, as well as learning how to accurately
+          portray technical subjects such as batteries and photovoltaic systems.
         </p>
       </div>
       <div class="col-md-3 mb30">
@@ -137,18 +142,22 @@
       <div class="row">
         <div class="col-lg-7">
           <div class="clearfix">
-            <a href="https://www.instagram.com/paperscissorock/" class="social-icon-sm si-dark si-facebook si-dark-round" target="_blank">
+            <a href="https://www.instagram.com/paperscissorock/"
+              class="social-icon-sm si-dark si-facebook si-dark-round" target="_blank">
               <i class="fab fa-instagram"></i>
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://www.linkedin.com/in/kevinhudsonpdx" class="social-icon-sm si-dark si-linkedin si-dark-round" target="_blank">
+            <a href="https://www.linkedin.com/in/kevinhudsonpdx"
+              class="social-icon-sm si-dark si-linkedin si-dark-round" target="_blank">
               <i class="fab fa-linkedin"></i>
               <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>
         <div class="col-lg-5">
-          <span>&copy; Copyright 2019. All Right Reserved | paperscissorock</span>
+          <span>&copy; Copyright
+            <script>document.write(new Date().getFullYear())</script>. All Right Reserved | paperscissorock
+          </span>
         </div>
       </div>
     </div>
@@ -182,93 +191,90 @@
   <script type="text/javascript">
     var tpj = jQuery;
     var revapi1083;
-    tpj(document).ready(function()
-    {
-      if (tpj("#rev_slider_1083_1").revolution == undefined)
-      {
+    tpj(document).ready(function () {
+      if (tpj("#rev_slider_1083_1").revolution == undefined) {
         revslider_showDoubleJqueryError("#rev_slider_1083_1");
       }
-      else
-      {
+      else {
         revapi1083 = tpj("#rev_slider_1083_1").show().revolution(
-        {
-          sliderType: "standard",
-          jsFileLocation: "../revolution/assets/js/",
-          sliderLayout: "auto",
-          dottedOverlay: "none",
-          delay: 6000,
-          navigation:
           {
-            keyboardNavigation: "off",
-            keyboard_direction: "horizontal",
-            mouseScrollNavigation: "off",
-            mouseScrollReverse: "default",
-            onHoverStop: "off",
-            touch:
+            sliderType: "standard",
+            jsFileLocation: "../revolution/assets/js/",
+            sliderLayout: "auto",
+            dottedOverlay: "none",
+            delay: 6000,
+            navigation:
             {
-              touchenabled: "on",
-              swipe_threshold: 75,
-              swipe_min_touches: 1,
-              swipe_direction: "horizontal",
-              drag_block_vertical: false
+              keyboardNavigation: "off",
+              keyboard_direction: "horizontal",
+              mouseScrollNavigation: "off",
+              mouseScrollReverse: "default",
+              onHoverStop: "off",
+              touch:
+              {
+                touchenabled: "on",
+                swipe_threshold: 75,
+                swipe_min_touches: 1,
+                swipe_direction: "horizontal",
+                drag_block_vertical: false
+              },
+              bullets:
+              {
+                enable: true,
+                hide_onmobile: true,
+                hide_under: 600,
+                style: "hermes",
+                hide_onleave: true,
+                hide_delay: 200,
+                hide_delay_mobile: 1200,
+                direction: "vertical",
+                h_align: "right",
+                v_align: "center",
+                h_offset: 30,
+                v_offset: 0,
+                space: 5,
+                tmp: ''
+              }
             },
-            bullets:
+            viewPort:
             {
               enable: true,
-              hide_onmobile: true,
-              hide_under: 600,
-              style: "hermes",
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              direction: "vertical",
-              h_align: "right",
-              v_align: "center",
-              h_offset: 30,
-              v_offset: 0,
-              space: 5,
-              tmp: ''
+              outof: "pause",
+              visible_area: "80%",
+              presize: false
+            },
+            responsiveLevels: [1240, 1024, 778, 480],
+            visibilityLevels: [1240, 1024, 778, 480],
+            gridwidth: [1240, 1024, 778, 480],
+            gridheight: [700, 600, 500, 400],
+            lazyType: "none",
+            parallax:
+            {
+              type: "mouse",
+              origo: "slidercenter",
+              speed: 2000,
+              levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
+              type: "mouse"
+            },
+            shadow: 0,
+            spinner: "off",
+            stopLoop: "off",
+            stopAfterLoops: -1,
+            stopAtSlide: -1,
+            shuffle: "off",
+            autoHeight: "off",
+            hideThumbsOnMobile: "off",
+            hideSliderAtLimit: 0,
+            hideCaptionAtLimit: 0,
+            hideAllCaptionAtLilmit: 0,
+            debugMode: false,
+            fallbacks:
+            {
+              simplifyAll: "off",
+              nextSlideOnWindowFocus: "off",
+              disableFocusListener: false
             }
-          },
-          viewPort:
-          {
-            enable: true,
-            outof: "pause",
-            visible_area: "80%",
-            presize: false
-          },
-          responsiveLevels: [1240, 1024, 778, 480],
-          visibilityLevels: [1240, 1024, 778, 480],
-          gridwidth: [1240, 1024, 778, 480],
-          gridheight: [700, 600, 500, 400],
-          lazyType: "none",
-          parallax:
-          {
-            type: "mouse",
-            origo: "slidercenter",
-            speed: 2000,
-            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
-            type: "mouse"
-          },
-          shadow: 0,
-          spinner: "off",
-          stopLoop: "off",
-          stopAfterLoops: -1,
-          stopAtSlide: -1,
-          shuffle: "off",
-          autoHeight: "off",
-          hideThumbsOnMobile: "off",
-          hideSliderAtLimit: 0,
-          hideCaptionAtLimit: 0,
-          hideAllCaptionAtLilmit: 0,
-          debugMode: false,
-          fallbacks:
-          {
-            simplifyAll: "off",
-            nextSlideOnWindowFocus: "off",
-            disableFocusListener: false
-          }
-        });
+          });
       }
     }); /*ready*/
   </script>
@@ -276,50 +282,49 @@
   <script type="text/javascript" src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
   <script>
     //projects
-    (function($, window, document, undefined)
-    {
+    (function ($, window, document, undefined) {
       'use strict';
 
       // init cubeportfolio
       $('#js-grid-lightbox-gallery').cubeportfolio(
-      {
-        filters: '#js-filters-lightbox-gallery',
-        layoutMode: 'masonry',
-        mediaQueries: [
         {
-          width: 1500,
-          cols: 3
-        },
-        {
-          width: 1100,
-          cols: 3
-        },
-        {
-          width: 800,
-          cols: 3
-        },
-        {
-          width: 480,
-          cols: 1,
-          options:
-          {
-            caption: ''
-          }
-        }],
-        defaultFilter: '*',
-        animationType: 'flipOutDelay',
-        gapHorizontal: 15,
-        gapVertical: 15,
-        gridAdjustment: 'responsive',
-        caption: 'zoom',
-        displayType: 'fadeIn',
-        displayTypeSpeed: 100,
-        // lightbox
-        lightboxDelegate: '.cbp-lightbox',
-        lightboxGallery: true,
-        lightboxTitleSrc: 'data-title',
-        lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>'
-      });
+          filters: '#js-filters-lightbox-gallery',
+          layoutMode: 'masonry',
+          mediaQueries: [
+            {
+              width: 1500,
+              cols: 3
+            },
+            {
+              width: 1100,
+              cols: 3
+            },
+            {
+              width: 800,
+              cols: 3
+            },
+            {
+              width: 480,
+              cols: 1,
+              options:
+              {
+                caption: ''
+              }
+            }],
+          defaultFilter: '*',
+          animationType: 'flipOutDelay',
+          gapHorizontal: 15,
+          gapVertical: 15,
+          gridAdjustment: 'responsive',
+          caption: 'zoom',
+          displayType: 'fadeIn',
+          displayTypeSpeed: 100,
+          // lightbox
+          lightboxDelegate: '.cbp-lightbox',
+          lightboxGallery: true,
+          lightboxTitleSrc: 'data-title',
+          lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>'
+        });
     })(jQuery, window, document);
   </script>
 </body>

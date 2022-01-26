@@ -7,8 +7,7 @@
   <script>
     window.dataLayer = window.dataLayer || [];
 
-    function gtag()
-    {
+    function gtag() {
       dataLayer.push(arguments);
     }
     gtag('js', new Date());
@@ -54,7 +53,9 @@
     <!--/search form-->
     <div class="container">
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="/">
@@ -109,7 +110,8 @@
               <i class="fab fa-facebook"></i>
               <i class="fab fa-facebook"></i>
             </a>
-            <a href="http://twitter.com" target="_blank" href="" class="social-icon-sm si-gray si-twitter si-gray-round">
+            <a href="http://twitter.com" target="_blank" href=""
+              class="social-icon-sm si-gray si-twitter si-gray-round">
               <i class="fab fa-twitter"></i>
               <i class="fab fa-twitter"></i>
             </a>
@@ -126,7 +128,9 @@
           Logos, logos & more logos.
         </p>
         <p>
-          My Branding and Identity professor in college, the talented Jeff Davis, once said that, "a logo is a good way to identify the talent of a good designer. If you can't make something look good when stripped down to the bare essentials
+          My Branding and Identity professor in college, the talented Jeff Davis, once said that, "a logo is a good way
+          to identify the talent of a good designer. If you can't make something look good when stripped down to the
+          bare essentials
           in it's most simplistic form, then you won't be a good designer." I agree with that statement 100%.</p>
       </div>
       <div class="col-md-3 mb30">
@@ -164,18 +168,22 @@
       <div class="row">
         <div class="col-lg-7">
           <div class="clearfix">
-            <a href="https://www.instagram.com/paperscissorock/" class="social-icon-sm si-dark si-facebook si-dark-round" target="_blank">
+            <a href="https://www.instagram.com/paperscissorock/"
+              class="social-icon-sm si-dark si-facebook si-dark-round" target="_blank">
               <i class="fab fa-instagram"></i>
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://www.linkedin.com/in/kevinhudsonpdx" class="social-icon-sm si-dark si-linkedin si-dark-round" target="_blank">
+            <a href="https://www.linkedin.com/in/kevinhudsonpdx"
+              class="social-icon-sm si-dark si-linkedin si-dark-round" target="_blank">
               <i class="fab fa-linkedin"></i>
               <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>
         <div class="col-lg-5">
-          <span>&copy; Copyright 2019. All Right Reserved | paperscissorock</span>
+          <span>&copy; Copyright
+            <script>document.write(new Date().getFullYear())</script>. All Right Reserved | paperscissorock
+          </span>
         </div>
       </div>
     </div>
@@ -209,93 +217,90 @@
   <script type="text/javascript">
     var tpj = jQuery;
     var revapi1083;
-    tpj(document).ready(function()
-    {
-      if (tpj("#rev_slider_1083_1").revolution == undefined)
-      {
+    tpj(document).ready(function () {
+      if (tpj("#rev_slider_1083_1").revolution == undefined) {
         revslider_showDoubleJqueryError("#rev_slider_1083_1");
       }
-      else
-      {
+      else {
         revapi1083 = tpj("#rev_slider_1083_1").show().revolution(
-        {
-          sliderType: "standard",
-          jsFileLocation: "../revolution/assets/js/",
-          sliderLayout: "auto",
-          dottedOverlay: "none",
-          delay: 6000,
-          navigation:
           {
-            keyboardNavigation: "off",
-            keyboard_direction: "horizontal",
-            mouseScrollNavigation: "off",
-            mouseScrollReverse: "default",
-            onHoverStop: "off",
-            touch:
+            sliderType: "standard",
+            jsFileLocation: "../revolution/assets/js/",
+            sliderLayout: "auto",
+            dottedOverlay: "none",
+            delay: 6000,
+            navigation:
             {
-              touchenabled: "on",
-              swipe_threshold: 75,
-              swipe_min_touches: 1,
-              swipe_direction: "horizontal",
-              drag_block_vertical: false
+              keyboardNavigation: "off",
+              keyboard_direction: "horizontal",
+              mouseScrollNavigation: "off",
+              mouseScrollReverse: "default",
+              onHoverStop: "off",
+              touch:
+              {
+                touchenabled: "on",
+                swipe_threshold: 75,
+                swipe_min_touches: 1,
+                swipe_direction: "horizontal",
+                drag_block_vertical: false
+              },
+              bullets:
+              {
+                enable: true,
+                hide_onmobile: true,
+                hide_under: 600,
+                style: "hermes",
+                hide_onleave: true,
+                hide_delay: 200,
+                hide_delay_mobile: 1200,
+                direction: "vertical",
+                h_align: "right",
+                v_align: "center",
+                h_offset: 30,
+                v_offset: 0,
+                space: 5,
+                tmp: ''
+              }
             },
-            bullets:
+            viewPort:
             {
               enable: true,
-              hide_onmobile: true,
-              hide_under: 600,
-              style: "hermes",
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              direction: "vertical",
-              h_align: "right",
-              v_align: "center",
-              h_offset: 30,
-              v_offset: 0,
-              space: 5,
-              tmp: ''
+              outof: "pause",
+              visible_area: "80%",
+              presize: false
+            },
+            responsiveLevels: [1240, 1024, 778, 480],
+            visibilityLevels: [1240, 1024, 778, 480],
+            gridwidth: [1240, 1024, 778, 480],
+            gridheight: [700, 600, 500, 400],
+            lazyType: "none",
+            parallax:
+            {
+              type: "mouse",
+              origo: "slidercenter",
+              speed: 2000,
+              levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
+              type: "mouse"
+            },
+            shadow: 0,
+            spinner: "off",
+            stopLoop: "off",
+            stopAfterLoops: -1,
+            stopAtSlide: -1,
+            shuffle: "off",
+            autoHeight: "off",
+            hideThumbsOnMobile: "off",
+            hideSliderAtLimit: 0,
+            hideCaptionAtLimit: 0,
+            hideAllCaptionAtLilmit: 0,
+            debugMode: false,
+            fallbacks:
+            {
+              simplifyAll: "off",
+              nextSlideOnWindowFocus: "off",
+              disableFocusListener: false
             }
-          },
-          viewPort:
-          {
-            enable: true,
-            outof: "pause",
-            visible_area: "80%",
-            presize: false
-          },
-          responsiveLevels: [1240, 1024, 778, 480],
-          visibilityLevels: [1240, 1024, 778, 480],
-          gridwidth: [1240, 1024, 778, 480],
-          gridheight: [700, 600, 500, 400],
-          lazyType: "none",
-          parallax:
-          {
-            type: "mouse",
-            origo: "slidercenter",
-            speed: 2000,
-            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
-            type: "mouse"
-          },
-          shadow: 0,
-          spinner: "off",
-          stopLoop: "off",
-          stopAfterLoops: -1,
-          stopAtSlide: -1,
-          shuffle: "off",
-          autoHeight: "off",
-          hideThumbsOnMobile: "off",
-          hideSliderAtLimit: 0,
-          hideCaptionAtLimit: 0,
-          hideAllCaptionAtLilmit: 0,
-          debugMode: false,
-          fallbacks:
-          {
-            simplifyAll: "off",
-            nextSlideOnWindowFocus: "off",
-            disableFocusListener: false
-          }
-        });
+          });
       }
     }); /*ready*/
   </script>
