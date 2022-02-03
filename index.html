@@ -354,28 +354,25 @@
         </p>
 
         <!-- Email form -->
-        <form method="post" action="smart-form/contact/php/smartprocess.php" id="smart-form">
+        <form action="https://formspree.io/f/mzboevaa" method="post">
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="sendername">Your name</label>
-              <input type="text" name="sendername" id="sendername" class="form-control" placeholder="Your name">
+              <label for="name">Your name</label>
+              <input type="text" name="name" id="name" class="form-control" placeholder="Your name">
             </div>
             <div class="form-group col-md-6">
-              <label for="emailaddress">Email</label>
-              <input type="email" name="emailaddress" id="emailaddress" class="form-control"
-                placeholder="Email address">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
             </div>
           </div>
           <div class="form-group">
-            <label for="sendersubject">Subject</label>
-            <input type="text" name="sendersubject" id="sendersubject" class="form-control" placeholder="Subject">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
           </div>
           <div class="form-group">
-            <label for="sendermessage">Your message</label>
-            <textarea class="form-control" id="sendermessage" name="sendermessage"
-              placeholder="Your message"></textarea>
+            <label for="message">Your message</label>
+            <textarea class="form-control" id="message" name="message" placeholder="Your message"></textarea>
           </div>
-          <div class="result"></div><!-- end .result  section -->
           <button type="submit" data-btntext-sending="Sending..." class="button btn btn-primary">Submit</button>
           <button type="reset" class="button btn btn-secondary">Reset</button>
         </form>
