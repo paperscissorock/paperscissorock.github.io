@@ -272,13 +272,13 @@ storyjs_jsonp_data = {
 {
               "startDate":"2018,1",
               "endDate":"2020,3",
-              "headline":"Started work with Steiner Custom Build & Remodel ",
+              "headline":"Started Custom Build & Remodeling work",
               "text":"<p>I really enjoy working with my hands, learning how things function and was hoping to one day invest in a home or two, so I joined some friends to learn about about building and finish remodeling. It's a very valuable yet under appreciated skill. </p>",
               "asset":
             {
                   "media":"images/chapeltimeline.png",
                   "credit":"",
-                  "caption":"https://www.steinerremodel.com/"
+                  "caption":""
          }
     },
 {
@@ -289,6 +289,18 @@ storyjs_jsonp_data = {
             "asset":
           {
                  "media":"images/teachtimeline.png",
+                 "credit":"",
+                 "caption":""
+}
+},
+{
+            "startDate":"2019,6",
+            "endDate":"2022,2",
+            "headline":"Began Learning 3d and Motion Design",
+            "text":"<p> I began learning to give life to my designs and work in 3D space.</p>",
+            "asset":
+          {
+                 "media":"images/3dtimeline.png",
                  "credit":"",
                  "caption":""
 }
