@@ -295,12 +295,23 @@ storyjs_jsonp_data = {
 },
 {
             "startDate":"2019,6",
-            "endDate":"2022,2",
             "headline":"Began Learning 3d and Motion Design",
             "text":"<p> I began learning to give life to my designs and work in 3D space.</p>",
             "asset":
           {
                  "media":"images/3dtimeline.png",
+                 "credit":"",
+                 "caption":""
+}
+},
+{
+            "startDate":"2022,4",
+            "endDate":"2022,9",
+            "headline":"School Of Motion - Cinema4D Basecamp",
+            "text":"<p> I invested in myself with the first of many SOM courses.</p>",
+            "asset":
+          {
+                 "media":"images/somtimeline.png",
                  "credit":"",
                  "caption":""
 }
