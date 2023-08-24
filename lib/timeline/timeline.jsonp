@@ -6,7 +6,7 @@ storyjs_jsonp_data = {
                 "startDate":"2004,8",
                 "endDate":"2007,5",
                 "headline":"Texas State University",
-                "text":"<p>I earned my B.S. in Communication Design with a specialization in Multimedia at Texas State University in San Marcos, Texas. I was consistently on the Dean's list and held a spot in the National Scholars Honors Society, while working a full-time photo preprocessing job.</p>",
+                "text":"<p>I earned my BFA in Communication Design with a specialization in Multimedia at Texas State University in San Marcos, Texas. I was consistently on the Dean's list and held a spot in the National Scholars Honors Society, while working a full-time photo preprocessing job.</p>",
                 "asset":
                 {
                     "media":"images/txstate01.png",
