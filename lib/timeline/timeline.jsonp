@@ -308,10 +308,22 @@ storyjs_jsonp_data = {
             "startDate":"2022,4",
             "endDate":"2022,9",
             "headline":"School Of Motion - Cinema4D Basecamp",
-            "text":"<p> I invested in myself with the first of many SOM courses.</p>",
+            "text":"<p> I invested in myself with my first SOM course to strengthen my foundations and learn some advanced skills</p>",
             "asset":
           {
                  "media":"images/somtimeline.png",
+                 "credit":"",
+                 "caption":""
+}
+},
+{
+            "startDate":"2024,2",
+            "endDate":"current",
+            "headline":"Fern Expo",
+            "text":"<p> I wanted to transition to a working with a creative team again and am interested in the event industry and using space and immersive experiences to guide stories so I took a job as a print operator in the graphics department at Fern Expo in hopes of gaining some knowledge, and experience.</p>",
+            "asset":
+          {
+                 "media":"images/fernexpo.png",
                  "credit":"",
                  "caption":""
 }
